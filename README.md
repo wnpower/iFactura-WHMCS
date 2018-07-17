@@ -3,6 +3,12 @@ Addon Module de WHMCS para emitir facturación electrónica (AFIP)
 
 ![iFactura-WHMCS](iFactura-WHMCS.gif)
 
+
+## Descarga
+
+Release: https://github.com/wnpower/iFactura-WHMCS/archive/v1.7.0.zip
+
+
 ## Requisitos
 
 Estos son los requisitos mínimos para utilizar iFactura en WHMCS:
