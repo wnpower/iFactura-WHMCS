@@ -13,7 +13,7 @@ Releases: https://github.com/wnpower/iFactura-WHMCS/releases
 
 Estos son los requisitos mínimos para utilizar iFactura en WHMCS:
 - WHMCS v7.5 o superior
-- PHP 7.0 o superior (curl)
+- PHP 7.1 o superior (curl)
 - IonCube 10
 
 
