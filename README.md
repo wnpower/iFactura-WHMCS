@@ -43,6 +43,7 @@ Para nuevos clientes a facturar, como al momento de contratar la primera Invoice
   - Nombre de usuario de API-User de WHMCS: Colocar el nombre de usuario API-User (o admin en su defecto) de WHMCS para poder consultar por internal API.
   - Condición Impositiva: Seleccione su condición impositiva
   - Control de acceso: Seleccionar los grupos de staff de WHMCS que pueden acceder al panel de control del módulo.
+  - Mes y Año desde: Seleccionar el mes y el año desde el cual se empieza a facturar. Este dato no es obligatorio, es solo una función para no tomar invoices anteriores.
 
 Al activar el módulo se activarán los Hooks "InvoiceCreationPreEmail" e "InvoiceCancelled" para la autogeneración de los comprobantes, en prioridad "10". Al generar o cancelar correctamente un comprobante para una Invoice dada, se colocará en el campo "Notes" de la Inovice una referencia al comprobante generado.
 
