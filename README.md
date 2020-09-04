@@ -1,5 +1,6 @@
 # iFactura-WHMCS
-Addon Module de WHMCS para emitir facturación electrónica (AFIP)
+
+Addon Module de WHMCS para emitir facturación electrónica (AFIP) mediante el servicio de iFactura.com.ar
 
 ![iFactura-WHMCS](iFactura-WHMCS.gif)
 
@@ -91,9 +92,13 @@ $pdf->writeHTML($tblhtml, true, false, false, false, '');
 }
 ```
 
-
 ## Notas de uso
 
 Cuando se crea una Invoice manualmente desde el panel de WHMCS > Admin Area (y no de forma automática por whmcs), no se genera automáticamente la factura, por lo que se deberá usar la vista "Invoices pendientes de Facturación" del panel de control del módulo (Módulos > iFactura Facturación) para facturar manualmente.
 
 Esta vista permite al usuario poder reintentar la emisión de la factura tanto individualmente como por grupos. Lo mismo ocurre con las facturas y notas de crédito que se encuentren con problemas de emisión. En caso de problemas, el detalle de los mismos sera informado al ser procesado.
+
+## Soporte Técnico
+
+Este addon posee soporte técnico comunitario vía la solapa "**[Issues](https://github.com/wnpower/iFactura-WHMCS/issues)**" de este mismo repositorio.
+No incluye atención técnica mediante el soporte técnico oficial del servicio de iFactura.
