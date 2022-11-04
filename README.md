@@ -10,12 +10,13 @@ Addon Module de WHMCS para emitir facturación electrónica (AFIP) mediante el s
 Releases: https://github.com/wnpower/iFactura-WHMCS/releases
 
 
+
 ## Requisitos
 
 Estos son los requisitos mínimos para utilizar iFactura en WHMCS:
-- WHMCS v7.5 o superior
-- PHP 7.1 o superior (curl)
-- IonCube 10
+
+- **versión 2.9.x (ver releases)** = Desde WHMCS v7.5, PHP 7.1 y IonCube 10 y hasta WHMCS v8.6, PHP 7.4 y IonCube 11
+- **versión 2.10.x** = Desde WHMCS 8.6, PHP 8.1 y IonCube 12
 
 
 ## Introducción
