@@ -1,6 +1,6 @@
 # iFactura-WHMCS
 
-Addon Module de WHMCS para emitir facturación electrónica (AFIP) mediante el servicio de iFactura.com.ar
+Addon Module de WHMCS para emitir facturación electrónica (ARCA) mediante el servicio de iFactura.com.ar
 
 ![iFactura-WHMCS](iFactura-WHMCS.gif)
 
@@ -13,7 +13,7 @@ Releases: https://github.com/wnpower/iFactura-WHMCS/releases
 
 ## Introducción
 
-Este módulo habilita a WHMCS para emitir facturas electrónicas en AFIP para todas las invoices.
+Este módulo habilita a WHMCS para emitir facturas electrónicas en ARCA (Afip) para todas las invoices.
 
 Cuando se emite una nueva Invoice, si el cliente en cuestión tiene en su perfil activadas las opciones "Datos Validados" y "Facturar", WHMCS se comunicará vía API a iFactura para emitir el comprobante correspondiente y almacenará el hash de identificación en el campo "Notas" de la Invoice en cuestión. El hash hace referencia al ID del comprobante generado en iFactura para su visualización online y/o descarga en PDF.
 

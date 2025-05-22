@@ -1,0 +1,26 @@
+{
+    "schema": "1.0",
+    "type": "whmcs-addon",
+    "name": "ifactura_afip",
+    "license": "proprietary",
+    "category": "billing",
+    "description": {
+        "name": "iFactura Facturación Electrónica",
+        "tagline": "Provee la funcionalidad de facturación electrónica en Argentina (ARCA)",
+        "long": "Provee la funcionalidad de facturación electrónica en Argentina (ARCA) para Invoices de WHMCS, utilizando el servicio API online de iFactura.com.ar."
+    },
+    "logo": {
+        "filename": "logo.png"
+    },
+    "support": {
+        "homepage": "https:\/\/www.ifactura.com.ar\/",
+        "support_url": "https:\/\/github.com/wnpower\/iFactura-WHMCS",
+        "docs_url": "https:\/\/github.com/wnpower\/iFactura-WHMCS"
+    },
+    "authors": [
+        {
+            "name": "iFactura",
+            "homepage": "https:\/\/www.ifactura.com.ar\/"
+        }
+    ]
+}
